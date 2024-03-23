@@ -1,0 +1,199 @@
+(footprint "Fuseholder_5x20mm_15mm_Pins"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Littelfuse clips, https://www.littelfuse.com/~/media/electronics/datasheets/fuse_clips/littelfuse_fuse_clip_100_445_030_520_datasheet.pdf.pdf")
+	(tags "Fuseholder clips")
+	(property "Reference" "F1"
+		(at 7.5 -3.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "f7d073db-d64b-40cf-86b8-110a07af1cbb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "2A"
+		(at 7.5 3.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "47d21bd7-158f-4b07-915b-b56d65e3ec4a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "Fuse:Fuseholder_Cylinder-5x20mm_Bayonett"
+		(at 7.5 5.25 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "be92274a-3ab4-4553-a204-496370fa810b")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9ac5a3a2-5e01-45f4-abf3-cc2e652cd75a")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c95f1e74-7c4e-4a26-9567-3020abfe2402")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -2.5 -2.5)
+		(end 17.5 2.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "8316ce9b-f481-426c-a398-48f1e3022230")
+	)
+	(fp_line
+		(start -2.6 -2.6)
+		(end 17.6 -2.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8c408fa1-79ae-413d-a213-6242e2d91866")
+	)
+	(fp_line
+		(start -2.6 2.6)
+		(end -2.6 -2.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6a1a6154-2cc8-420e-ba19-b2573218c115")
+	)
+	(fp_line
+		(start 17.6 -2.6)
+		(end 17.6 2.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "83f028f0-638c-4de9-a2cc-6456d36e593c")
+	)
+	(fp_line
+		(start 17.6 2.6)
+		(end -2.6 2.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "60c563f9-ec81-4fe8-bb59-94b0f3bfa5e1")
+	)
+	(fp_line
+		(start -2.4 -2.4)
+		(end 17.4 -2.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "01e01ceb-1f2d-468e-b9c9-af7cc8ab1ed1")
+	)
+	(fp_line
+		(start -2.4 2.4)
+		(end -2.4 -2.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1445a3c9-e1b0-4db3-90a9-13608ae031f5")
+	)
+	(fp_line
+		(start 17.4 -2.4)
+		(end 17.4 2.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2eba7ed9-5f19-459f-bc59-ca6edf3b7a5e")
+	)
+	(fp_line
+		(start 17.4 2.4)
+		(end -2.4 2.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c12bdfca-f9a3-4570-8876-49bcb012aa2b")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 7.5 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "6b7ece83-8757-4dd7-a1bc-342f87747494")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 2.3 2.3)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "680a729d-0d4e-4b9b-a263-19e2a95d244b")
+	)
+	(pad "2" thru_hole circle
+		(at 15 0)
+		(size 2.3 2.3)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "2ecb1941-1605-4a43-99ba-85a66d89b699")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Fuse.3dshapes/Fuseholder_Littelfuse_100_series_5x20mm.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
