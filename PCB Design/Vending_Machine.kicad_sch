@@ -1,0 +1,156 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "061ecb1c-afb0-4b5f-8f93-1c1ad8e1529c")
+	(paper "A4")
+	(title_block
+		(title "I2C Relay Controler")
+		(date "2024-03-19")
+		(rev "2")
+		(company "Perth Artifactory")
+		(comment 1 "Penny Wood")
+	)
+	(lib_symbols)
+	(sheet
+		(at 121.92 54.61)
+		(size 25.4 13.97)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "64fa79d5-fcaa-415d-bc83-4631e2959168")
+		(property "Sheetname" "Logic Controller"
+			(at 121.92 53.8984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Logic_Controller.kicad_sch"
+			(at 121.92 69.1646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "VExt" bidirectional
+			(at 121.92 59.69 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ba18afd6-ef7b-4221-b3d2-c6ada50e5e78")
+		)
+		(pin "SCL" bidirectional
+			(at 121.92 63.5 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "26cf0111-4675-4dc8-a443-2e7955f35f01")
+		)
+		(pin "SDA" bidirectional
+			(at 121.92 66.04 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "859a7bb3-1639-4788-8e3a-51b544d6b909")
+		)
+		(instances
+			(project "Vending_Machine"
+				(path "/061ecb1c-afb0-4b5f-8f93-1c1ad8e1529c"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 73.66 53.34)
+		(size 24.13 15.24)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e125c24b-afd4-4505-a8fd-095dc0995886")
+		(property "Sheetname" "Relay Controller"
+			(at 73.66 52.6284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Relay_Controller.kicad_sch"
+			(at 73.66 69.1646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "VExt" input
+			(at 97.79 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "bcff4444-7447-41fd-a626-7ddd419ba03b")
+		)
+		(pin "SCL" bidirectional
+			(at 97.79 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "320a9b3b-3bd5-4dfe-ac36-7376881e4d93")
+		)
+		(pin "SDA" bidirectional
+			(at 97.79 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "34f5d816-d0b6-4ee8-b43c-2a2323a79641")
+		)
+		(instances
+			(project "Vending_Machine"
+				(path "/061ecb1c-afb0-4b5f-8f93-1c1ad8e1529c"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
