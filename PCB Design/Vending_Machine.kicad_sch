@@ -11,7 +11,489 @@
 		(company "Perth Artifactory")
 		(comment 1 "Penny Wood")
 	)
-	(lib_symbols)
+	(lib_symbols
+		(symbol "Connector:Conn_WallPlug_Earth"
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "P"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Value" "Conn_WallPlug_Earth"
+				(at -5.08 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Footprint" ""
+				(at 10.16 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 10.16 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "3-pin general wall plug, with Earth wire (110VAC, 220VAC)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "wall plug 110VAC 220VAC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_WallPlug_Earth_0_1"
+				(arc
+					(start -3.175 -3.81)
+					(mid 0.6184 0)
+					(end -3.175 3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.445 -2.54) (xy -0.635 -2.54)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.445 0) (xy 0.508 0)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.445 2.54) (xy -0.635 2.54)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.175 -3.81) (xy -3.175 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 2.54) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 -9.398) (xy 3.556 -9.398)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.778 -9.906) (xy 3.302 -9.906)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.032 -10.414) (xy 3.048 -10.414)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -10.922) (xy 2.794 -10.922)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -7.62) (xy 2.54 -8.89)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -8.89) (xy 1.27 -8.89)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -7.62) (xy 1.905 -7.62) (xy 1.905 0) (xy -4.445 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 -7.62)
+					(radius 0.3556)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "Conn_WallPlug_Earth_1_1"
+				(pin power_out line
+					(at 7.62 2.54 180)
+					(length 5.08)
+					(name "AC_P"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 7.62 -2.54 180)
+					(length 5.08)
+					(name "AC_N"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -7.62 180)
+					(length 5.08)
+					(name "EARTH"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 97.79 66.04) (xy 121.92 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ddf4344-ccc4-415a-bdd4-b86eec5d1b40")
+	)
+	(wire
+		(pts
+			(xy 64.77 55.88) (xy 64.77 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2319cf8f-4267-4b2c-a814-ce7d1ef75887")
+	)
+	(wire
+		(pts
+			(xy 97.79 60.96) (xy 121.92 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32076c3a-381a-43b8-98f8-fc782ad7f4c7")
+	)
+	(wire
+		(pts
+			(xy 97.79 58.42) (xy 121.92 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "766c90fe-0842-4143-9043-6949267b4708")
+	)
+	(wire
+		(pts
+			(xy 97.79 63.5) (xy 121.92 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7abd7905-aee0-4ec4-855b-c5020bc41c2c")
+	)
+	(wire
+		(pts
+			(xy 60.96 66.04) (xy 64.77 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a68ace62-e8ac-45e5-9cef-dbab199f0167")
+	)
+	(wire
+		(pts
+			(xy 60.96 55.88) (xy 64.77 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b14d4793-5cb0-4aad-b73f-e3772e9b5d40")
+	)
+	(wire
+		(pts
+			(xy 64.77 66.04) (xy 64.77 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb4580bb-2b2c-4be6-96fc-8cf7e06aa8c0")
+	)
+	(wire
+		(pts
+			(xy 60.96 60.96) (xy 73.66 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0ebd187-44c7-4347-a502-a3bf73d5e31e")
+	)
+	(wire
+		(pts
+			(xy 64.77 58.42) (xy 73.66 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e24445a3-4777-4347-a52e-a0aea6eabdf3")
+	)
+	(wire
+		(pts
+			(xy 64.77 63.5) (xy 73.66 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6527b63-56fd-403b-9713-5e5e2ceb0e3d")
+	)
+	(symbol
+		(lib_id "Connector:Conn_WallPlug_Earth")
+		(at 53.34 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "bf11081e-f150-4d59-836d-6c1c9a191541")
+		(property "Reference" "P01"
+			(at 52.9463 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Main Supply"
+			(at 52.9463 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 63.5 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 63.5 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "3-pin general wall plug, with Earth wire (110VAC, 220VAC)"
+			(at 53.34 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6f3d13cd-3293-4b4d-83b5-85a34ba9c337")
+		)
+		(pin "2"
+			(uuid "b8bf2a55-1dda-4d1d-b68e-fcfaf889d6b3")
+		)
+		(pin "3"
+			(uuid "7480e449-3863-4a11-881b-b3bf29dad755")
+		)
+		(instances
+			(project "Vending_Machine"
+				(path "/061ecb1c-afb0-4b5f-8f93-1c1ad8e1529c"
+					(reference "P01")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(sheet
 		(at 121.92 54.61)
 		(size 25.4 13.97)
@@ -42,27 +524,7 @@
 				(justify left top)
 			)
 		)
-		(pin "VExt" bidirectional
-			(at 121.92 59.69 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "ba18afd6-ef7b-4221-b3d2-c6ada50e5e78")
-		)
-		(pin "SCL" bidirectional
-			(at 121.92 63.5 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "26cf0111-4675-4dc8-a443-2e7955f35f01")
-		)
-		(pin "SDA" bidirectional
+		(pin "I2C_SCL" bidirectional
 			(at 121.92 66.04 180)
 			(effects
 				(font
@@ -70,7 +532,37 @@
 				)
 				(justify left)
 			)
-			(uuid "859a7bb3-1639-4788-8e3a-51b544d6b909")
+			(uuid "3bd6afbc-08af-4c00-9312-671287db8ded")
+		)
+		(pin "I2C_Gnd" output
+			(at 121.92 58.42 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f1e57ea3-57f5-4315-a48a-be24adfe9f3e")
+		)
+		(pin "I2C_SDA" bidirectional
+			(at 121.92 63.5 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "902fc0c5-d6ff-4eb9-b72b-f419f3abfcec")
+		)
+		(pin "I2C_VCC" output
+			(at 121.92 60.96 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "fc4dca36-aef2-48d3-9100-5f402c101d5f")
 		)
 		(instances
 			(project "Vending_Machine"
@@ -110,17 +602,57 @@
 				(justify left top)
 			)
 		)
-		(pin "VExt" input
-			(at 97.79 59.69 0)
+		(pin "AC_Gnd" input
+			(at 73.66 63.5 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "9f8a8406-2404-43ca-8ee2-08c18c73f19a")
+		)
+		(pin "AC_Neut" input
+			(at 73.66 60.96 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ebccad63-da7d-4b26-9b32-0a3e27c1c9eb")
+		)
+		(pin "AC_Live" input
+			(at 73.66 58.42 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "1b938a63-ddb7-4ed6-a5fe-463921a8005c")
+		)
+		(pin "I2C_VCC" output
+			(at 97.79 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "bcff4444-7447-41fd-a626-7ddd419ba03b")
+			(uuid "0ac6841a-c037-4a6d-af22-95f6e195931b")
 		)
-		(pin "SCL" bidirectional
+		(pin "I2C_Gnd" output
+			(at 97.79 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "7bd522e2-3c34-4505-80d6-7c54b8f816e5")
+		)
+		(pin "I2C_SDA" bidirectional
 			(at 97.79 63.5 0)
 			(effects
 				(font
@@ -128,9 +660,9 @@
 				)
 				(justify right)
 			)
-			(uuid "320a9b3b-3bd5-4dfe-ac36-7376881e4d93")
+			(uuid "c6a0c935-f901-41dd-aa8c-975e5968bbd7")
 		)
-		(pin "SDA" bidirectional
+		(pin "I2C_SCL" bidirectional
 			(at 97.79 66.04 0)
 			(effects
 				(font
@@ -138,7 +670,7 @@
 				)
 				(justify right)
 			)
-			(uuid "34f5d816-d0b6-4ee8-b43c-2a2323a79641")
+			(uuid "76a9a15c-bff2-402f-9c9b-84ba60452e39")
 		)
 		(instances
 			(project "Vending_Machine"
