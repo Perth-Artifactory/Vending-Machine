@@ -5,7 +5,7 @@
 	(uuid "4349acad-93f4-406f-8d3e-85a4b2820ebd")
 	(paper "A4")
 	(title_block
-		(title "I2C Relay Controler")
+		(title "Logic Controller")
 		(date "2024-03-19")
 		(rev "2")
 		(company "Perth Artifactory")

@@ -5,7 +5,7 @@
 	(uuid "061ecb1c-afb0-4b5f-8f93-1c1ad8e1529c")
 	(paper "A4")
 	(title_block
-		(title "I2C Relay Controler")
+		(title "Vending Machine")
 		(date "2024-03-19")
 		(rev "2")
 		(company "Perth Artifactory")
@@ -568,6 +568,44 @@
 			(project "Vending_Machine"
 				(path "/061ecb1c-afb0-4b5f-8f93-1c1ad8e1529c"
 					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 105.41 81.28)
+		(size 22.86 13.97)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9c3cb50a-c3f7-4dce-9b4b-c52119142b1e")
+		(property "Sheetname" "IO Multiplexer"
+			(at 105.41 80.5684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "IO_Multiplexer.kicad_sch"
+			(at 105.41 95.8346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Vending_Machine"
+				(path "/061ecb1c-afb0-4b5f-8f93-1c1ad8e1529c"
+					(page "4")
 				)
 			)
 		)
