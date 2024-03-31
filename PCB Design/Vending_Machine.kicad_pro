@@ -59,12 +59,13 @@
         }
       ],
       "drc_exclusions": [
-        "clearance|138568000|152608000|1bf4b6eb-0b99-4027-a680-5f93acf69d32|91de93f7-4302-41e3-a31d-eb2de7042bab",
+        "clearance|138568000|151592000|1bf4b6eb-0b99-4027-a680-5f93acf69d32|91de93f7-4302-41e3-a31d-eb2de7042bab",
         "clearance|138568000|161752000|cc63c153-8a77-4b88-a414-eac5f67c9ef5|91de93f7-4302-41e3-a31d-eb2de7042bab",
         "clearance|74976000|120736000|c6d71dc1-4a73-4ae2-8956-22a2136febfd|9149f803-a7c8-4b4d-ac4b-7ff24377c28c",
         "clearance|78024000|120706000|df60fd48-cc0d-46bf-85d9-2d4eae279461|9149f803-a7c8-4b4d-ac4b-7ff24377c28c",
         "footprint_type_mismatch|135636000|157480000|06fcfb31-f674-4b44-8bf1-3f2816dba004|00000000-0000-0000-0000-000000000000",
         "footprint_type_mismatch|94996000|119380000|12253c7e-47a7-4601-b2c0-b0335804b271|00000000-0000-0000-0000-000000000000",
+        "missing_courtyard|139300000|190800000|5df220cb-5df0-431d-a720-2d2455c077ac|00000000-0000-0000-0000-000000000000",
         "missing_courtyard|163800000|127107000|16a974d3-4d6d-4a14-b324-560604cd66e0|00000000-0000-0000-0000-000000000000",
         "missing_courtyard|51562000|191516000|7df56587-6a83-406c-ad4c-3ca6f28a8a4a|00000000-0000-0000-0000-000000000000",
         "starved_thermal|134586000|156430000|91de93f7-4302-41e3-a31d-eb2de7042bab|7e6556c0-e784-4579-b852-37a4c8740d7a|F.Cu",
@@ -535,7 +536,7 @@
     "page_layout_descr_file": ""
   },
   "schematic": {
-    "annotate_start_num": 40,
+    "annotate_start_num": 10,
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
