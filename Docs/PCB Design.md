@@ -27,7 +27,7 @@ While the ESP32-WROOM-32E module with the on-board antenna does use the same pin
 
 All the available ESP32 pins are broken out in the same layout as is used in most devboards, plus the pins are grouped into 2x 4pin, 1x 5 pin, and 1x 8 pin connectors. These have a consistent pin-out, with GND, 3v3, and then various GPIO pins. A status LED is connected to GPIO 32, and an LED indicating power on is available.
 
-On the reverse of the board, the appropriate pinout to connect to a [2.4" OLED screen module](https://www.aliexpress.com/item/1005006100836064.html) is provided. This is in the reverse direction to the other pins given it's connecting from the reverse side. The size and shape of the board is ideal to mount back-to-back with the screen module.
+On the reverse of the board, the appropriate pinout to connect to a 2.4" OLED screen module[^5] is provided. This is in the reverse direction to the other pins given it's connecting from the reverse side. The size and shape of the board is ideal to mount back-to-back with the screen module.
 
 ## Multiplexer
 
@@ -39,3 +39,4 @@ The I2C multiplexer breakout that uses the same SX1509 core IC as the relay boar
 [^2]: AMS1117-3.3: [Datasheet](http://www.advanced-monolithic.com/pdf/ds1117.pdf)
 [^3]: TCA9406DC: [Datasheet](https://www.ti.com/lit/ds/symlink/tca9406.pdf)
 [^4]: ESP32-WROOM-32UE: [Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32e_esp32-wroom-32ue_datasheet_en.pdf)
+[^5]: OLED Module: [AliExpress](https://www.aliexpress.com/item/1005006100836064.html)
