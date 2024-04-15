@@ -4012,6 +4012,16 @@
 	)
 	(wire
 		(pts
+			(xy 40.64 93.98) (xy 40.64 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23a58449-84c0-4d43-9fd9-eb28cc105f25")
+	)
+	(wire
+		(pts
 			(xy 87.63 50.8) (xy 87.63 49.53)
 		)
 		(stroke
@@ -4029,6 +4039,16 @@
 			(type default)
 		)
 		(uuid "278b51d7-0bc3-46e3-9aac-891c3238958a")
+	)
+	(wire
+		(pts
+			(xy 40.64 104.14) (xy 40.64 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "281b71ab-ebb7-4676-bb73-0fcf5e92301c")
 	)
 	(wire
 		(pts
@@ -4419,16 +4439,6 @@
 			(type default)
 		)
 		(uuid "64a3d278-0135-45df-a4d1-41f93d8408f1")
-	)
-	(wire
-		(pts
-			(xy 40.64 106.68) (xy 40.64 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "64ef9194-cef4-4d90-b952-b06acce2c9be")
 	)
 	(wire
 		(pts
@@ -4849,16 +4859,6 @@
 			(type default)
 		)
 		(uuid "b889df70-ee3d-49d0-8423-0b955f3b671b")
-	)
-	(wire
-		(pts
-			(xy 40.64 93.98) (xy 40.64 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b9dfbe30-ae7f-42cd-b75b-f8660322e22f")
 	)
 	(wire
 		(pts
@@ -5817,17 +5817,6 @@
 		)
 		(uuid "6422d998-f62d-4cef-a3f6-33cbf30fb63d")
 	)
-	(label "VCC"
-		(at 40.64 106.68 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "66cadc1c-a1f8-4698-929d-0c333f7228a1")
-	)
 	(label "GND"
 		(at 168.91 121.92 0)
 		(fields_autoplaced yes)
@@ -6344,6 +6333,17 @@
 			(justify right bottom)
 		)
 		(uuid "c72973e8-4016-42c0-9169-d452115d7e84")
+	)
+	(label "GND"
+		(at 40.64 106.68 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c932f4e2-1915-45db-911a-8d460adb5c54")
 	)
 	(label "VCC"
 		(at 143.51 88.9 0)
@@ -8647,7 +8647,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 40.64 100.33 270)
+		(at 40.64 100.33 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8655,7 +8655,7 @@
 		(dnp no)
 		(uuid "afb4ae19-e3da-4594-9598-048743837c99")
 		(property "Reference" "D31"
-			(at 44.704 99.06 90)
+			(at 36.576 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8663,7 +8663,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 44.704 101.854 90)
+			(at 36.576 98.806 90)
 			(effects
 				(font
 					(size 1.27 1.27)
