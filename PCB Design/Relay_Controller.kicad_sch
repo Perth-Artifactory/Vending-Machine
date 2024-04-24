@@ -8416,7 +8416,7 @@
 		)
 		(uuid "1951a27b-ea80-49a2-94fa-f1a0b670dc66")
 	)
-	(label "VCC"
+	(label "3v3"
 		(at 43.18 179.07 0)
 		(fields_autoplaced yes)
 		(effects
@@ -8482,7 +8482,7 @@
 		)
 		(uuid "322aac81-ee5f-47db-81ac-15ea2b92b2d6")
 	)
-	(label "SCL_VCC"
+	(label "SCL_3v3"
 		(at 247.65 62.23 180)
 		(fields_autoplaced yes)
 		(effects
@@ -8493,7 +8493,7 @@
 		)
 		(uuid "326abc2d-1d01-49fc-881c-600f18939034")
 	)
-	(label "VCC"
+	(label "3v3"
 		(at 46.99 127 0)
 		(fields_autoplaced yes)
 		(effects
@@ -8537,7 +8537,7 @@
 		)
 		(uuid "3a93c402-95b1-4b52-a0fe-caa953f71706")
 	)
-	(label "VCC"
+	(label "3v3"
 		(at 217.17 128.27 90)
 		(fields_autoplaced yes)
 		(effects
@@ -8570,7 +8570,7 @@
 		)
 		(uuid "3b2003c0-05c1-4573-9a20-4a0679eb0b08")
 	)
-	(label "VCC"
+	(label "3v3"
 		(at 203.2 118.11 90)
 		(fields_autoplaced yes)
 		(effects
@@ -8636,7 +8636,7 @@
 		)
 		(uuid "473629b4-5c84-4db8-bd7a-d1fbb8b442d1")
 	)
-	(label "SDA_VCC"
+	(label "SDA_3v3"
 		(at 193.04 137.16 180)
 		(fields_autoplaced yes)
 		(effects
@@ -8647,7 +8647,7 @@
 		)
 		(uuid "48bbe4c3-56cb-4dde-b901-cddc33684f37")
 	)
-	(label "VCC"
+	(label "3v3"
 		(at 260.35 41.91 0)
 		(fields_autoplaced yes)
 		(effects
@@ -8702,7 +8702,7 @@
 		)
 		(uuid "5045ca96-7139-4812-89ef-4a41c9f40f2d")
 	)
-	(label "VCC"
+	(label "3v3"
 		(at 43.18 170.18 0)
 		(fields_autoplaced yes)
 		(effects
@@ -8757,7 +8757,7 @@
 		)
 		(uuid "564bec34-057e-480d-ad8c-58d62cfa8296")
 	)
-	(label "VCC"
+	(label "3v3"
 		(at 73.66 125.73 180)
 		(fields_autoplaced yes)
 		(effects
@@ -8834,7 +8834,7 @@
 		)
 		(uuid "5ede2b8c-355e-4ed9-8b07-13b622c8df94")
 	)
-	(label "VCC"
+	(label "3v3"
 		(at 121.92 125.73 0)
 		(fields_autoplaced yes)
 		(effects
@@ -8922,7 +8922,7 @@
 		)
 		(uuid "6a421516-776d-4fd3-934b-7c524391f320")
 	)
-	(label "SDA_VCC"
+	(label "SDA_3v3"
 		(at 73.66 156.21 180)
 		(fields_autoplaced yes)
 		(effects
@@ -9021,7 +9021,7 @@
 		)
 		(uuid "7af1ea3d-b3df-40b1-b3f3-937cc27885aa")
 	)
-	(label "VCC"
+	(label "3v3"
 		(at 152.4 130.81 270)
 		(fields_autoplaced yes)
 		(effects
@@ -9076,7 +9076,7 @@
 		)
 		(uuid "85565667-01d6-4d29-a8b8-d87042d6495b")
 	)
-	(label "SCL_VCC"
+	(label "SCL_3v3"
 		(at 193.04 134.62 180)
 		(fields_autoplaced yes)
 		(effects
@@ -9109,7 +9109,7 @@
 		)
 		(uuid "8d537711-4efe-4fd5-acda-487470f52197")
 	)
-	(label "SDA_VCC"
+	(label "SDA_3v3"
 		(at 247.65 74.93 180)
 		(fields_autoplaced yes)
 		(effects
@@ -9450,7 +9450,7 @@
 		)
 		(uuid "c7b2bad2-65c4-4aaf-9daf-7f56f21499bc")
 	)
-	(label "VCC"
+	(label "3v3"
 		(at 46.99 142.24 0)
 		(fields_autoplaced yes)
 		(effects
@@ -9472,7 +9472,7 @@
 		)
 		(uuid "c96c91d6-df6f-423d-9ee0-7a4ba70c63c3")
 	)
-	(label "SCL_VCC"
+	(label "SCL_3v3"
 		(at 73.66 158.75 180)
 		(fields_autoplaced yes)
 		(effects
@@ -9604,7 +9604,7 @@
 		)
 		(uuid "e4d78202-f26f-4403-aad0-257a0ec6876d")
 	)
-	(label "VCC"
+	(label "3v3"
 		(at 121.92 152.4 0)
 		(fields_autoplaced yes)
 		(effects
@@ -9648,7 +9648,7 @@
 		)
 		(uuid "eef2e817-d184-4e81-af51-e7cfd2809cb2")
 	)
-	(label "VCC"
+	(label "3v3"
 		(at 53.34 96.52 0)
 		(fields_autoplaced yes)
 		(effects
@@ -9761,7 +9761,7 @@
 		)
 		(uuid "6238d859-b677-408a-ba32-151972737483")
 	)
-	(hierarchical_label "I2C_VCC"
+	(hierarchical_label "I2C_3v3"
 		(shape output)
 		(at 261.62 144.78 0)
 		(fields_autoplaced yes)
@@ -10702,7 +10702,7 @@
 				)
 			)
 		)
-		(property "Value" "SCL_VCC"
+		(property "Value" "SCL_3v3"
 			(at 254 58.928 0)
 			(effects
 				(font
@@ -12121,7 +12121,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VCC"
+		(property "Value" "3v3"
 			(at 50.8 97.7899 0)
 			(effects
 				(font
@@ -12577,7 +12577,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VCC"
+		(property "Value" "3v3"
 			(at 120.65 153.6699 0)
 			(effects
 				(font
@@ -14428,7 +14428,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VCC"
+		(property "Value" "3v3"
 			(at 120.65 126.9999 0)
 			(effects
 				(font
@@ -15334,7 +15334,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VCC"
+		(property "Value" "3v3"
 			(at 77.47 126.9999 0)
 			(effects
 				(font
@@ -16072,7 +16072,7 @@
 				)
 			)
 		)
-		(property "Value" "SDA_VCC"
+		(property "Value" "SDA_3v3"
 			(at 254 72.136 0)
 			(effects
 				(font

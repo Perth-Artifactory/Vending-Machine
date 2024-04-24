@@ -748,7 +748,7 @@
 			)
 			(uuid "902fc0c5-d6ff-4eb9-b72b-f419f3abfcec")
 		)
-		(pin "I2C_VCC" output
+		(pin "I2C_3v3" output
 			(at 154.94 87.63 0)
 			(effects
 				(font
@@ -796,7 +796,7 @@
 				(justify left top)
 			)
 		)
-		(pin "I2C_VCC" output
+		(pin "I2C_3v3" output
 			(at 154.94 109.22 0)
 			(effects
 				(font
@@ -904,7 +904,7 @@
 			)
 			(uuid "1b938a63-ddb7-4ed6-a5fe-463921a8005c")
 		)
-		(pin "I2C_VCC" output
+		(pin "I2C_3v3" output
 			(at 154.94 66.04 0)
 			(effects
 				(font
